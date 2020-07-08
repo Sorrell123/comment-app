@@ -22,7 +22,7 @@ const App: React.FC<AppProps> = ({
 }) => {  
   useEffect(() => {
     getComments();
-  }, [getComments]);
+  }, [getComments]); 
 
   return (
     <BrowserRouter>
